@@ -13,6 +13,7 @@ header {
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .background {
@@ -78,7 +79,7 @@ header {
     }
 }
 
-button {
+.text button {
     color: white;
     background-color:
         #DD0000;
@@ -93,6 +94,55 @@ button {
     animation: sliding 1.5s linear infinite;
 }
 
+
 button:hover {
     color: gold;
+}
+
+
+/*------------------------------------------- 
+                    Main 
+---------------------------------------------*/
+
+/*------------- 
+    Sidebar 
+---------------*/
+
+.sidebar {
+    width: 300px;
+    height: 320px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+#current {
+    color: white;
+    background-color: #DD0000;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+    background-color: #DD0000;
 }
