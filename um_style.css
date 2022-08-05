@@ -48,7 +48,7 @@ header {
 .image {
     width: 581px;
     height: 613px;
-    padding-top: 29px;
+    padding-top: 33px;
 }
 
 .background text {
@@ -164,6 +164,7 @@ a:hover {
     align-items: center;
     margin-top: 35px;
     margin-left: 20px;
+    margin-right: 15px;
 }
 
 /*----------- 
